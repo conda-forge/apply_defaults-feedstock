@@ -1,5 +1,5 @@
 {% set name = "apply_defaults" %}
-{% set version = "0.1.5" %}
+{% set version = "0.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7fd246314cb4bd90a6f2c4e07f6812d2dc6c85829119e591d8d8adc0993fa3cc
+  sha256: 3773de3491b94c0fe44310f1a85888389cdc71e1544b343bce0d2bd6991acea5
 
 build:
   number: 0
